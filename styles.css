@@ -13,7 +13,7 @@
     width: 15px;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: var(--primary-color);
+    background-color: var(--primary-color);    
     border-radius: 50px;
 }
 ::-webkit-scrollbar-track{
@@ -101,6 +101,7 @@ body{
     overflow: hidden;
     box-shadow: inset 0px 0px 50000px 0px black;
 }
+
 .banner-text h1{
   color: var(--secondary-font-color);
   font-size: 90px;
@@ -129,12 +130,12 @@ body{
     background-color: var(--primary-color);
     color: var(--secondary-font-color);
     top: 350px;
+    
   }
 
   .donate{
     width: 100%;
     height: 900px;
-  
     position: relative;
     top: -880px;
     margin-bottom: -880px;
